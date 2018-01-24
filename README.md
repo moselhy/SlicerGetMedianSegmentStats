@@ -9,7 +9,7 @@
 * It is now `  registeredPlugins = [LabelmapSegmentStatisticsPlugin, ScalarVolumeSegmentStatisticsPlugin,
                            ClosedSurfaceSegmentStatisticsPlugin, ScalarVolumeModifiedSegmentStatisticsPlugin]`)
 3. Go into the folder `SegmentStatisticsPlugins`
-4. Copy the `ScalarVolumeModifiedSegmentStatisticsPlugin.py` file into this folder
+4. Copy the `ScalarVolumeModifiedSegmentStatisticsPlugin.py` file from this downloaded/clone repository into that folder
 5. Add the following line to the `__init__.py` file in that same folder: <br />
 `from ScalarVolumeModifiedSegmentStatisticsPlugin import *`
 6. Restart Slicer
