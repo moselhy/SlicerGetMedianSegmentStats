@@ -1,4 +1,4 @@
-# [3DSlicer]("https://slicer.org/") Plugin for calculating median signal intensities of segmentations
+# [3DSlicer](https://slicer.org/) Plugin for calculating median signal intensities of segmentations
 
 ## Instructions:
 1. Download/clone this repository
