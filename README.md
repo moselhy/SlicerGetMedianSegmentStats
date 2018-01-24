@@ -2,7 +2,7 @@
 
 ## Instructions:
 1. Download/clone this repository
-2. Add the following entry to the `SegmentStatistics.py` file in the Slicer application folder <br />(For Windows, it is: `C:\Program Files\Slicer....\lib\Slicer...\qt-scripted-modules)`: <br />
+2. Add the following entry to the `SegmentStatistics.py` file in the Slicer application folder <br />(For Windows, it is: `C:\Program Files\Slicer....\lib\Slicer...\qt-scripted-modules`): <br />
 `ScalarVolumeModifiedSegmentStatisticsPlugin`
 * (Instead of `  registeredPlugins = [LabelmapSegmentStatisticsPlugin, ScalarVolumeSegmentStatisticsPlugin,
                            ClosedSurfaceSegmentStatisticsPlugin]`
