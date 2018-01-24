@@ -9,8 +9,8 @@
 * It is now `  registeredPlugins = [LabelmapSegmentStatisticsPlugin, ScalarVolumeSegmentStatisticsPlugin,
                            ClosedSurfaceSegmentStatisticsPlugin, ScalarVolumeModifiedSegmentStatisticsPlugin]`)
 3. Go into the folder `SegmentStatisticsPlugins`
-4. Copy the `ScalarVolumeModifiedSegmentStatisticsPlugin.py` file into your Slicer application folder
-5. Add the following line to the `__init__.py` file in the folder mentioned above: <br />
+4. Copy the `ScalarVolumeModifiedSegmentStatisticsPlugin.py` file into this folder
+5. Add the following line to the `__init__.py` file in that same folder: <br />
 `from ScalarVolumeModifiedSegmentStatisticsPlugin import *`
 6. Restart Slicer
 7. Now you will be able to see the new plugin which includes the median in the computed stats (see following screenshot)
