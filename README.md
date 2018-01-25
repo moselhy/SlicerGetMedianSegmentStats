@@ -1,6 +1,6 @@
 # [3DSlicer](https://slicer.org/) Plugin for calculating median signal intensities of segmentations
 
-## Instructions:
+## Instructions for SegmentStatistics:
 1. Download/clone this repository
 2. Add the following entry to the `SegmentStatistics.py` file in the Slicer application folder <br />(For Windows, it is: `C:\Program Files\Slicer....\lib\Slicer...\qt-scripted-modules`): <br />
 `ScalarVolumeModifiedSegmentStatisticsPlugin`
@@ -16,3 +16,10 @@
 7. Now you will be able to see the new plugin which includes the median in the computed stats (see following screenshot)
 
 ![Alt text](screenshot.png?raw=true "Screenshot")
+
+## Instructions for LabelStatistics:
+1. Download/clone the repository
+2. Go to the Slicer application folder <br />(For Windows, it is: `C:\Program Files\Slicer....\lib\Slicer...\qt-scripted-modules`): <br />
+3. Copy (overwrite) `LabelStatistics.py` to that folder
+4. Restart Slicer
+
