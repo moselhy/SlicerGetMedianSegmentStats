@@ -17,9 +17,4 @@
 
 ![Alt text](screenshot.png?raw=true "Screenshot")
 
-## Instructions for LabelStatistics:
-1. Download/clone the repository
-2. Go to the Slicer application folder <br />(For Windows, it is: `C:\Program Files\Slicer....\lib\Slicer...\qt-scripted-modules`): <br />
-3. Copy (overwrite) `LabelStatistics.py` to that folder
-4. Restart Slicer
-
+**** For LabelMap statistics, the new nightly versions of Slicer will automatically include the median, so make sure you update your Slicer version
